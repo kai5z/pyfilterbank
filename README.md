@@ -1,3 +1,9 @@
+Added very rudimental osx support.
+- Copy over the dylib file
+- Replace the .so file in the install dir with ln -s sosfilt.dylib sosfilt.so
+
+TODO: Sorry, this is for personal use, could be made more handy by making it a part of the install process
+
 #PyFilterbank 
 ##Filter Banks and Acoustics Tools Package for Python
 This package provides filter banks, and other useful tools for the daily work of the acoustician.
